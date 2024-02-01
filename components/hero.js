@@ -78,7 +78,7 @@ export default function Hero() {
 
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-x-20">
                         {lenguage}
-                        <a href="#contactenos" className="text-sm font-semibold leading-6 text-white">
+                        <a href= {nav(`contact.href`)} className="text-sm font-semibold leading-6 text-white">
                         {nav(`contact.name`)}  <span aria-hidden="true">&rarr;</span>
                         </a>
                     </div>
@@ -118,10 +118,10 @@ export default function Hero() {
                                 {lenguage}
                                 <div className="py-6">
                                     <a
-                                        href="#contactenos"
+                                        href={nav(`contact.href`)}
                                         className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                                     >
-                                        Contactenos
+                                   {nav(`contact.name`)}
                                     </a>
                                 </div>
 
@@ -213,7 +213,7 @@ export default function Hero() {
                                                     url='https://vimeo.com/905381922'
                                                     width='100%'
                                                     height='100%'
-                                                // controls={true}
+                                                    controls='true'
 
                                                 />
                                             </div>
