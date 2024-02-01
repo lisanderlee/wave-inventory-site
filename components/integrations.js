@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import integration from "@/public/images/integrations.svg"
+import integrations from "../public/Images/integrations.svg"
 import { useTranslations } from "next-intl";
 
 export function Integrations() {
@@ -18,7 +18,7 @@ export function Integrations() {
                     {t("subheadline")}
                 </p>
             </div>
-            <Image  width={1060} height={540} src={integration} alt='Integrations'/>
+            <Image  width={1250} height={540} src={integrations} alt='Integrations'/>
 
         </div>
         </div>
