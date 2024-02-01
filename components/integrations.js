@@ -18,7 +18,7 @@ export function Integrations() {
                     {t("subheadline")}
                 </p>
             </div>
-            <Image src={integration} alt='Integrations'/>
+            <Image  width={1060} height={540} src={integration} alt='Integrations'/>
 
         </div>
         </div>
