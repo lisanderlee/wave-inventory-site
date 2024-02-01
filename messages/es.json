@@ -1,0 +1,176 @@
+{
+
+  "navigation":{
+    "solution":{
+        "name": "Nuestro Sistema",
+        "href": "#solution"
+    },
+    "features":{
+        "name": "Beneficios",
+        "href": "#features"
+    },
+    "testimonial":{
+        "name": "Testimonio",
+        "href": "#testimonial"
+    },
+    "integrations":{
+        "name": "Integraciones",
+        "href": "#integrations"
+    },
+    "faq":{
+        "name": "FAQ",
+        "href": "#faq"
+    },
+    "contact":{
+        "name": "Contactenos",
+        "href": "#contact"
+    }
+},
+
+    "hero": {
+      "headline": "Rastreando el Inventario de Hoy para el Éxito del Mañana.",
+      "highlight": "Cada artículo, cada ubicación, cada momento:",
+      "subheadline": "WaveInventory asegura que siempre estés informado. Nuestro avanzado sistema Wireless Matrix se integra perfectamente con la nube, ofreciendo una precisión incomparable en el seguimiento de inventario. Ahorra tiempo, reduce costos y eleva la gestión de tu inventario.",
+      "cta": "Véalo en acción",
+      "box": "Lector de Contenidos a Gran Escala",
+      "handheld": "Lector Manual Rápido",
+      "pos": "Lectores de Seguimiento en POS"
+    },
+    "stats": {
+      "headline": "Con más de 20 años de experiencia, WaveInventory lidera soluciones de software innovadoras.",
+      "subheadline": "Especializados en tecnología RFID, ofrecemos herramientas asequibles de digitalización de inventario para medianas y grandes empresas.",
+      "stat-1": "+1000",
+      "stat-1-title": "Inventarios Digitalizados",
+      "stat-1-body": "eficiencia, precisión y agilidad para el éxito empresarial.",
+      "stat-2": "+800000",
+      "stat-2-title": "Operaciones Exitosas",
+      "stat-2-body": "respaldan nuestra experiencia y excelencia en soluciones empresariales.",
+      "stat-3": "+1200",
+      "stat-3-title": "Usuarios Satisfechos",
+      "stat-3-body": "confirman nuestro compromiso con la satisfacción del cliente y la excelencia en soluciones."
+    },
+    "solution": {
+      "headline": "Nuestro ecosistema integral ofrece herramientas para cada fase del proceso empresarial.",
+      "subheadline": "Desde la incorporación de etiquetas RFID en la producción hasta la eficiente gestión en el punto de venta. Garantizamos una gestión integral y efectiva, optimizando la cadena de suministro y mejorando la experiencia del cliente.",
+      "videocta": "Ver Video",
+      "features": {
+        "tag": {
+          "name": "Etiqueta Inteligente",
+          "description": "Al inicio del proceso de producción, añadimos nuestras etiquetas RFID a cada prenda. Este paso permite un seguimiento detallado desde la fabricación hasta el punto de venta, mejorando la eficiencia de la cadena de suministro y la satisfacción del cliente. Estas etiquetas pueden personalizarse de diversas formas, ya sea como stickers, tags rígidos o flexibles, ofreciendo cientos de opciones para adaptarse a las necesidades específicas de cada prenda o producto."
+        },
+        "box": {
+          "name": "Lector de Contenidos",
+          "description": "Nuestro Sensor de Caja RFID permite a las empresas escanear rápidamente el contenido de cajas cerradas, identificando cada prenda etiquetada con RFID sin necesidad de abrir la caja. Esta solución es ideal para la verificación de inventarios y la gestión eficiente de la recepción de mercancías, asegurando precisión y ahorro de tiempo en el manejo de stock. Además, la tecnología puede personalizarse para adaptarse a cualquier tamaño, ofreciendo flexibilidad para necesidades diversas."
+        },
+        "handheld": {
+          "name": "Sensor de Mano",
+          "description": "El Sensor de Mano RFID de WaveInventory es una herramienta potente para leer de manera rápida y eficiente grandes volúmenes de artículos. Diseñada para agilidad, esta solución permite a los usuarios escanear rápidamente múltiples artículos, ideal para auditorías de inventario y seguimiento rápido en almacenes o áreas de almacenamiento."
+        },
+        "smart": {
+          "name": "Espejo Inteligente",
+          "description": "El Espejo Inteligente transforma la experiencia de compra en el punto de venta, simplificando la atención y proporcionando información detallada sobre los artículos probados por el cliente, mejorando así la interacción y la satisfacción en la tienda."
+        },
+        "pos": {
+          "name": "Punto de Venta (POS) Retail",
+          "description": "El sistema POS Retail de WaveInventory, integrado con tecnología RFID, transforma la experiencia de ventas minoristas. Permite el seguimiento detallado de artículos en la tienda, facilitando la gestión de inventario en tiempo real y una experiencia de compra más rápida y eficiente para el cliente. Además, ayuda en la prevención de pérdidas y mejora la precisión de las transacciones."
+        }
+      }
+    },
+    "features": {
+      "headline": "Integración Total con la Nube",
+      "subheadline": "Además de la digitalización de inventarios, ofrecemos una solución integral a todas las necesidades en un solo producto. La integración total con la nube permite acceso y gestión en tiempo real.",
+      "features": {
+        "logistics": {
+          "name": "Logística e Inventario",
+          "description": "Gestión de inventario en almacenes mediante radiofrecuencia (RFID), control del canal de distribución, entrega de productos al cliente y puntos de venta, etc.",
+          "icon": "TruckIcon"
+        },
+        "production": {
+          "name": "Producción",
+          "description": "Planificación de la producción, planificación de necesidades de materiales, liberación y control de órdenes de fabricación, seguimiento de indicadores, etc.",
+          "icon": "CogIcon"
+        },
+        "commerce": {
+          "name": "Comercio Electrónico + Integraciones",
+          "description": "Conecta tu tienda en línea a varias plataformas para mejorar su funcionalidad, automatizar la gestión de pedidos, inventario y la comunicación con los clientes.",
+          "icon": "ShoppingBagIcon"
+        },
+        "accounting": {
+          "name": "Administrativo / Contabilidad",
+          "description": "Lleva un registro de las transacciones financieras de tu empresa y realiza tareas administrativas diarias. Automatiza los procesos empresariales y obtén una vista más completa de tus operaciones.",
+          "icon": "CalculatorIcon"
+        },
+        "pos": {
+          "name": "Punto de Venta (POS)",
+          "description": "Utiliza nuestro software para gestionar ventas, pagos e inventario en tus tiendas. Mejora la eficiencia del inventario y acelera las transacciones con la tecnología RFID, impactando positivamente en las ventas y la satisfacción del cliente.",
+          "icon": "MapPinIcon"
+        },
+        "power": {
+          "name": "Informes Power BI",
+          "description": "La interfaz Power BI te permite visualizar y comprender los datos de manera más efectiva. Nuestros informes abordan diferentes necesidades y requisitos.",
+          "icon": "ChartBarIcon"
+        }
+      }
+    },
+    "testimonial": {
+      "headline": "Testimonios",
+      "subheadline": "Escucha a algunos de nuestros clientes actuales."
+    },
+    "integrations": {
+      "headline": "Socios de Integración",
+      "subheadline": "Smart Stock está integrado con las soluciones y aplicaciones más utilizadas."
+    },
+    "cta": {
+      "headline": "Transforma tu proceso logístico con WaveInventory.",
+      "ctaheadline": "Contáctanos hoy.",
+      "ctabutton": "Contáctanos",
+      "ctavideo": "Ver Video"
+    },
+    "faq": {
+      "headline": "Preguntas Frecuentes",
+      "subheadline": "¿No encuentras la respuesta que buscas?",
+      "cta": "Contáctanos",
+      "questions": {
+        "q1": {
+          "question": "¿Qué es un inventario digitalizado?",
+          "answer": "Un inventario digitalizado es una lista de productos o materiales mantenida en formato digital, en lugar de en un almacén físico."
+        },
+        "q2": {
+          "question": "¿Cómo se utiliza un inventario digitalizado?",
+          "answer": "Un inventario digitalizado se utiliza para realizar un seguimiento de los productos o materiales disponibles, su cantidad y ubicación. También puede utilizarse para realizar un seguimiento de las entradas y salidas de inventario, generar informes y realizar pedidos automáticamente."
+        },
+        "q3": {
+          "question": "¿Cuáles son las ventajas de un inventario digitalizado?",
+          "answer": "Un inventario digitalizado ofrece varias ventajas, como la reducción de errores humanos, la capacidad de realizar un seguimiento del inventario en tiempo real, la automatización de procesos y la capacidad de generar informes y análisis. También puede ayudar a reducir los costos de almacenamiento y mejorar la eficiencia en la gestión de inventarios."
+        },
+        "q4": {
+          "question": "¿Qué herramientas se utilizan para digitalizar inventarios?",
+          "answer": "Para digitalizar inventarios, se utilizan herramientas de software específicas, como sistemas de gestión de inventario (ERP), software de automatización de almacenes (WMS) y software de seguimiento de inventario (ICS). Estas herramientas pueden usarse juntas o de manera independiente para adaptarse a las necesidades de cada empresa."
+        },
+        "q5": {
+          "question": "¿Qué es la tecnología RFID?",
+          "answer": "RFID (Identificación por Radiofrecuencia) es una tecnología de comunicación inalámbrica que utiliza frecuencias de radio para transmitir información entre un dispositivo llamado etiqueta RFID (que lleva los datos) y un dispositivo receptor llamado lector RFID. Esta tecnología se utiliza en una amplia gama de aplicaciones, incluida la identificación automática de objetos, seguimiento de activos, control de acceso y gestión de inventarios."
+        },
+        "q6": {
+          "question": "¿Qué beneficios proporciona la tecnología RFID?",
+          "answer": "Los beneficios de la tecnología RFID incluyen un aumento en la eficiencia en la recopilación de datos, una mayor precisión en el seguimiento de inventarios, una mejor capacidad de seguimiento en tiempo real, una mayor automatización en los procesos de seguimiento y una reducción de costos. También puede mejorar la seguridad al permitir un mejor control y gestión del acceso a áreas y activos importantes."
+        },
+        "q7": {
+          "question": "¿Qué dispositivos se utilizan en RFID?",
+          "answer": "Etiquetas RFID: dispositivos pasivos que contienen un chip y una antena colocados en objetos a seguir. Lectores RFID: dispositivos activos que emiten una señal para leer la información almacenada en las etiquetas RFID. Impresoras RFID: dispositivos utilizados para escribir información en etiquetas RFID. Antenas RFID: dispositivos utilizados para transmitir y recibir señales RFID. Sistemas RFID: sistemas completos que incluyen lectores, escritores y software para recopilar, almacenar y analizar datos RFID."
+        }
+      }
+    },
+    "contact": {
+      "headline": "Ponte en Contacto",
+      "subheadline": "Para consultas u oportunidades de colaboración, contáctanos. Nuestro equipo está aquí para ayudarte a encontrar soluciones adaptadas a tus necesidades. Conéctate con nosotros hoy para una asociación más eficiente y exitosa.",
+      "first-name": "Nombre",
+      "last-name": "Apellido",
+      "company": "Empresa",
+      "email": "Correo Electrónico",
+      "phone-number": "Número de Teléfono",
+      "message": "Mensaje",
+      "cta": "Enviar"
+    }
+  }
+  
