@@ -56,23 +56,43 @@
       "features": {
         "tag": {
           "name": "Etiqueta Inteligente",
-          "description": "Al inicio del proceso de producción, añadimos nuestras etiquetas RFID a cada prenda. Este paso permite un seguimiento detallado desde la fabricación hasta el punto de venta, mejorando la eficiencia de la cadena de suministro y la satisfacción del cliente. Estas etiquetas pueden personalizarse de diversas formas, ya sea como stickers, tags rígidos o flexibles, ofreciendo cientos de opciones para adaptarse a las necesidades específicas de cada prenda o producto."
+          "description": "Al inicio del proceso de producción, añadimos nuestras etiquetas RFID a cada prenda. Este paso permite un seguimiento detallado desde la fabricación hasta el punto de venta, mejorando la eficiencia de la cadena de suministro y la satisfacción del cliente. Estas etiquetas pueden personalizarse de diversas formas, ya sea como stickers, tags rígidos o flexibles, ofreciendo cientos de opciones para adaptarse a las necesidades específicas de cada prenda o producto.",
+          "stat-1": "13%",
+          "stat-1-description": "aumento de precision",
+          "stat-2": "50+",
+          "stat-2-description": "diseños"
         },
         "box": {
           "name": "Lector de Contenidos",
-          "description": "Nuestro Sensor de Caja RFID permite a las empresas escanear rápidamente el contenido de cajas cerradas, identificando cada prenda etiquetada con RFID sin necesidad de abrir la caja. Esta solución es ideal para la verificación de inventarios y la gestión eficiente de la recepción de mercancías, asegurando precisión y ahorro de tiempo en el manejo de stock. Además, la tecnología puede personalizarse para adaptarse a cualquier tamaño, ofreciendo flexibilidad para necesidades diversas."
+          "description": "Nuestro Sensor de Caja RFID permite a las empresas escanear rápidamente el contenido de cajas cerradas, identificando cada prenda etiquetada con RFID sin necesidad de abrir la caja. Esta solución es ideal para la verificación de inventarios y la gestión eficiente de la recepción de mercancías, asegurando precisión y ahorro de tiempo en el manejo de stock. Además, la tecnología puede personalizarse para adaptarse a cualquier tamaño, ofreciendo flexibilidad para necesidades diversas.",
+          "stat-1": "15%",
+          "stat-1-description": "reduccion perdidas",
+          "stat-2": "4%",
+          "stat-2-description": "reduccion personal"
         },
         "handheld": {
-          "name": "Sensor de Mano",
-          "description": "El Sensor de Mano RFID de WaveInventory es una herramienta potente para leer de manera rápida y eficiente grandes volúmenes de artículos. Diseñada para agilidad, esta solución permite a los usuarios escanear rápidamente múltiples artículos, ideal para auditorías de inventario y seguimiento rápido en almacenes o áreas de almacenamiento."
+          "name": "Lector de Mano",
+          "description": "El Sensor de Mano RFID de WaveInventory es una herramienta potente para leer de manera rápida y eficiente grandes volúmenes de artículos. Diseñada para agilidad, esta solución permite a los usuarios escanear rápidamente múltiples artículos, ideal para auditorías de inventario y seguimiento rápido en almacenes o áreas de almacenamiento.",
+          "stat-1": "13%",
+          "stat-1-description": "reduccion de errores",
+          "stat-2": "60%",
+          "stat-2-description": "incremento agilidad"
         },
         "smart": {
           "name": "Espejo Inteligente",
-          "description": "El Espejo Inteligente transforma la experiencia de compra en el punto de venta, simplificando la atención y proporcionando información detallada sobre los artículos probados por el cliente, mejorando así la interacción y la satisfacción en la tienda."
+          "description": "El Espejo Inteligente transforma la experiencia de compra en el punto de venta, simplificando la atención y proporcionando información detallada sobre los artículos probados por el cliente, mejorando así la interacción y la satisfacción en la tienda.",
+          "stat-1": "100%",
+          "stat-1-description": "stock avalability",
+          "stat-2": "99%",
+          "stat-2-description": "precision increase"
         },
         "pos": {
           "name": "Punto de Venta (POS) Retail",
-          "description": "El sistema POS Retail de WaveInventory, integrado con tecnología RFID, transforma la experiencia de ventas minoristas. Permite el seguimiento detallado de artículos en la tienda, facilitando la gestión de inventario en tiempo real y una experiencia de compra más rápida y eficiente para el cliente. Además, ayuda en la prevención de pérdidas y mejora la precisión de las transacciones."
+          "description": "El sistema POS Retail de WaveInventory, integrado con tecnología RFID, transforma la experiencia de ventas minoristas. Permite el seguimiento detallado de artículos en la tienda, facilitando la gestión de inventario en tiempo real y una experiencia de compra más rápida y eficiente para el cliente. Además, ayuda en la prevención de pérdidas y mejora la precisión de las transacciones.",
+          "stat-1": "100%",
+          "stat-1-description": "disponibilidad de stock",
+          "stat-2": "99%",
+          "stat-2-description": "incremento de precision"
         }
       }
     },

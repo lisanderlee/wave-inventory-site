@@ -11,7 +11,7 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "WaveInventory",
+  title: "WaveInventory - Tracking Today's Inventory for Tomorrow's Success.",
   description: "Tracking Today's Inventory for Tomorrow's Success.",
 };
 

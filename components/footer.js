@@ -1,18 +1,27 @@
-import Link from 'next/link'
-
-
+import Link from "next/link";
+import { useTranslations } from 'next-intl'
 export function Footer() {
+  const nav = useTranslations('navigation')
+  const keys = ['solution', 'features', 'testimonial', 'integrations', 'faq']
   return (
     <footer className="bg-gray-900">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="py-16">
-        <p className='font-extrabold text-xl  text-white'><span className=' font-extrabold italic'>Wave</span>Inventory</p>
+          <p className="font-extrabold text-xl  text-white">
+            <span className=" font-extrabold italic">Wave</span>Inventory
+          </p>
 
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <Link href="#solution"><p className='text-white'>Solucion</p></Link>
-              <Link href="#features"><p className='text-white'>Beneficios</p></Link>
-              <Link href="#faq"><p className='text-white'>FAQ</p></Link>
+            {keys.map((key) => (
+              <a
+                key={key}
+                href={nav(`${key}.href`)}
+                className="text-sm font-semibold leading-6 text-white"
+              >
+                {nav(`${key}.name`)}
+              </a>
+            ))}
             </div>
           </nav>
         </div>
@@ -44,11 +53,11 @@ export function Footer() {
             </Link>
           </div> */}
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} WaveInventory. All rights
-            reserved.
+            Copyright &copy; {new Date().getFullYear()} WaveInventory. All
+            rights reserved.
           </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
