@@ -261,7 +261,7 @@ export default function Hero() {
             </div>
             <div>
               <Image alt="POS Tools" src={POS} width={300} height={300} />
-              <div className="mt-3">
+              <div className="">
                 <p className="text-sm text-white font-semibold text-center ">
                   {' '}
                   {t('pos')}
