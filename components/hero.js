@@ -44,7 +44,7 @@ export default function Hero() {
   }
 
   return (
-    <div className=" bg-indigo-600 ">
+    <div className="-mr-5 bg-indigo-600 ">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
@@ -239,7 +239,7 @@ export default function Hero() {
             <div>
               <Image alt="Box Scan" src={BOX} width={300} height={300} />
               <div className="">
-                <p className="text-xl text-[#59DFFD] font-bold text-center ">
+                <p className="text-sm text-white font-semibold text-center ">
                   {' '}
                   {t('box')}
                 </p>
@@ -253,7 +253,7 @@ export default function Hero() {
                 height={300}
               />
               <div className="">
-                <p className="text-xl text-[#59DFFD] font-bold text-center ">
+                <p className="text-sm text-white font-semibold text-center ">
                   {' '}
                   {t('handheld')}
                 </p>
@@ -262,7 +262,7 @@ export default function Hero() {
             <div>
               <Image alt="POS Tools" src={POS} width={300} height={300} />
               <div className="mt-3">
-                <p className="text-xl text-[#59DFFD] font-bold text-center ">
+                <p className="text-sm text-white font-semibold text-center ">
                   {' '}
                   {t('pos')}
                 </p>
