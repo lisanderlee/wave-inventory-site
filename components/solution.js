@@ -40,10 +40,10 @@ export default function Solution() {
           </a> */}
         </div>
 
-        <div className="flex flex-col mt-10  gap-y-28 ">
+        <div className="flex flex-col  mt-10  gap-y-28 ">
 
           <motion.div variants={sectionVariants} initial="offscreen" whileInView="onscreen">
-            <div className="flex lg:flex-row flex-col lg:items-center lg:gap-x-24 ">
+            <div className="flex  lg:flex-row flex-col lg:items-center lg:gap-x-24 ">
               <div className="flex">
                 <div className=" xy-auto mx-auto">
                   <Image className="h-96 w-96" width={500} height={500} src={Tag} alt="Smart Tag" />
@@ -52,7 +52,7 @@ export default function Solution() {
               <div className="flex flex-1 flex-col w-96">
                 <div className="flex flex-col">
                   <h3 className="text-3xl font-bold text-indigo-600"> {t('features.tag.name')} </h3>
-                  <p className="mt-5 text-md text-gray-500"> {t('features.tag.description')} </p>
+                  <p className="mt-5 text-md text-gray-500 max-w-80 lg:max-w-none "> {t('features.tag.description')} </p>
                 </div>
                 <div className="flex flex-row mt-10 ">
                   <dl className="  text-gray-900 ">
@@ -82,7 +82,7 @@ export default function Solution() {
               <div className="flex flex-1 flex-col w-96">
                 <div className="flex flex-col">
                   <h3 className="text-3xl font-bold text-indigo-600"> {t('features.box.name')} </h3>
-                  <p className="mt-5 text-md text-gray-500"> {t('features.box.description')} </p>
+                  <p className="mt-5 text-md text-gray-500 max-w-80 lg:max-w-none ">  {t('features.box.description')} </p>
                 </div>
                 <div className="flex flex-row mt-10 ">
                   <dl className="  text-gray-900 ">
@@ -112,7 +112,7 @@ export default function Solution() {
               <div className="flex flex-1 flex-col w-96">
                 <div className="flex flex-col">
                   <h3 className="text-3xl font-bold text-indigo-600"> {t('features.handheld.name')} </h3>
-                  <p className="mt-5 text-md text-gray-500"> {t('features.handheld.description')} </p>
+                  <p className="mt-5 text-md text-gray-500 max-w-80 lg:max-w-none ">  {t('features.handheld.description')} </p>
                 </div>
                 <div className="flex flex-row mt-10 ">
                   <dl className="  text-gray-900 ">
@@ -142,7 +142,7 @@ export default function Solution() {
               <div className="flex flex-1 flex-col w-96">
                 <div className="flex flex-col">
                   <h3 className="text-3xl font-bold text-indigo-600"> {t('features.pos.name')} </h3>
-                  <p className="mt-5 text-md text-gray-500"> {t('features.pos.description')} </p>
+                  <p className="mt-5 text-md text-gray-500 max-w-80 lg:max-w-none ">  {t('features.pos.description')} </p>
                 </div>
                 <div className="flex flex-row mt-10 ">
                   <dl className="  text-gray-900 ">
