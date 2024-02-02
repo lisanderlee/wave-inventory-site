@@ -37,7 +37,7 @@ export default async function LocaleLayout({ children, params }) {
   return (
     <html lang={params.locale}>
 
-      <body>
+      <body className=" overflow-x-hidden">
         <NextIntlProvider
           locale={params.locale}
           messages={messages}
