@@ -115,32 +115,32 @@
             "logistics": {
                 "name": "Logistics and Inventory",
                 "description": "Warehouse stock management via radiofrequency (RFID), control of the distribution channel, product delivery to the customer and points of sale, etc.",
-                "icon": "TruckIcon"
+                "icon": "<TruckIcon />"
             },
             "production": {
                 "name": "Production",
                 "description": "Production scheduling, material needs planning, release and control of manufacturing orders, tracking indicators, etc.",
-                "icon": "CogIcon"
+                "icon": "<TruckIcon />"
             },
             "commerce": {
                 "name": "E-Commerce + Integrations",
                 "description": "Connect your online store to various platforms to enhance its functionality, automate order management, inventory, and communication with customers.",
-                "icon": "ShoppingBagIcon"
+                "icon": "<TruckIcon />"
             },
             "accounting": {
                 "name": "Administrative / Accounting",
                 "description": "Keep a record of your company's financial transactions and perform daily administrative tasks. Automate your business processes and get a more complete view of your operations.",
-                "icon": "CalculatorIcon"
+                "icon": "<TruckIcon />"
             },
             "pos": {
                 "name": "Point of Sale (POS)",
                 "description": "Use our software to manage sales, payments, and inventory in your stores. Improve inventory efficiency and speed up transactions with RFID technology, positively impacting sales and customer satisfaction.",
-                "icon": "MapPinIcon"
+                "icon": "<TruckIcon />"
             },
             "power": {
                 "name": "Power BI Reports",
                 "description": "The Power BI interface allows you to visualize and understand data more effectively. Our reports address different needs and requirements.",
-                "icon": "ChartBarIcon"
+                "icon": "<TruckIcon />"
             }
         }
     },
