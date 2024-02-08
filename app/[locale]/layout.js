@@ -11,8 +11,12 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "WaveInventory - Tracking Today's Inventory for Tomorrow's Success.",
-  description: "Tracking Today's Inventory for Tomorrow's Success.",
+  title: "WaveInventory",
+  description: "Tracking Today's Inventory for Tomorrow's Success. RFID Techbnology.",
+  verification: {
+    google:
+      "google-site-verification=kQJazAGSleHI3J2oocJLmlb67yVy92rWdTzLZb7B4DE",
+  },
 };
 
 
