@@ -2,9 +2,63 @@
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
+import { ToastContainer, toast, Bounce } from 'react-toastify';
 
 export default function Contact() {
   const t = useTranslations('contact')
+
+  const [formData, setFormData] = useState({
+    name: '',
+    last: '',
+    company: '',
+    email: '',
+    tel: '',
+    message: '',
+  })
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value })
+  }
+
+  const handleReset = () => {
+    // Reset the form inputs to empty strings
+    setFormData({
+      name: '',
+      last: '',
+      company: '',
+      email: '',
+      tel: '',
+      message: '',
+    });
+  }
+
+
+  async function handleSubmit(event) {
+    event.preventDefault()
+    const formData = new FormData(event.target)
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'post',
+        body: formData,
+      })
+
+      if (!response.ok) {
+        console.log('falling over')
+        throw new Error(`response status: ${response.status}`)
+      }
+      const responseData = await response.json()
+      console.log(responseData['message'])
+
+      alert('Message successfully sent')
+      
+
+      handleReset()
+    
+    } catch (err) {
+      console.error(err)
+      alert('Error, please try resubmitting the form')
+    }
+  }
 
   return (
     <div id="contact" className="relative isolate  bg-gray-900 rounded-t-3xl ">
@@ -51,7 +105,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <form action="#" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+        <form onSubmit={handleSubmit} method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
@@ -63,8 +117,11 @@ export default function Contact() {
                     type="text"
                     name="name"
                     id="name"
+                    required
                     autoComplete="given-name"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    value={formData.name}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -76,9 +133,12 @@ export default function Contact() {
                   <input
                     type="text"
                     name="last"
+                    required
                     id="last"
                     autoComplete="family-name"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    value={formData.last}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -90,9 +150,12 @@ export default function Contact() {
                   <input
                     type="text"
                     name="company"
+                    required
                     id="company"
                     autoComplete="company"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    value={formData.company}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -103,10 +166,13 @@ export default function Contact() {
                 <div className="mt-2.5">
                   <input
                     type="email"
+                    required
                     name="email"
                     id="email"
                     autoComplete="email"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    value={formData.email}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -118,9 +184,12 @@ export default function Contact() {
                   <input
                     type="tel"
                     name="tel"
+                    required
                     id="tel"
                     autoComplete="tel"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    value={formData.tel}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -131,21 +200,24 @@ export default function Contact() {
                 <div className="mt-2.5">
                   <textarea
                     name="message"
+                    required
                     id="message"
                     rows={4}
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    defaultValue={''}
+                    value={formData.message}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
             </div>
             <div className="mt-8 flex justify-end">
-              <button
-                type="submit"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                {t('cta')}
-              </button>
+                <button
+                  type="submit"
+                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  {t('cta')}
+                </button>
+        
             </div>
           </div>
         </form>

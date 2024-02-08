@@ -84,14 +84,14 @@ export default function Page() {
       >
       <Features />
       </motion.div>
-      <motion.div
+    <motion.div
         variants={sectionVariants}
         initial="offscreen"
         whileInView="onscreen"
       >
       <Testimonials />
       </motion.div>
-      <motion.div
+       <motion.div
         variants={sectionVariants}
         initial="offscreen"
         whileInView="onscreen"
@@ -119,7 +119,7 @@ export default function Page() {
       >
       <Contact />
       </motion.div>
-      <Footer />
+      <Footer /> 
     </>
   )
 }
