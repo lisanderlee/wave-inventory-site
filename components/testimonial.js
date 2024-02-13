@@ -16,7 +16,7 @@ export default function Testimonials() {
         <div className="player-wrapper mb-5 rounded-2xl overflow-clip shadow-sn mt-16 w-full">
           <ReactPlayer
             className="react-player"
-            url="https://vimeo.com/905437180"
+            url="https://vimeo.com/912734605"
             width="100%"
             height="100%"
             controls={true}

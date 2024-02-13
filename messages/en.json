@@ -41,7 +41,7 @@
     
     "stats": {
         "headline": "With over 20 years of experience, WaveInventory leads innovative software solutions.",
-        "subheadline": "Specializing in RFID technology, we provide medium and large businesses with affordable inventory digitization tools.",
+        "subheadline": "Specializing in RFID technology, we offer tools for the digitization of inventory in medium and large companies.",
         "stat-1": "+1000",
         "stat-1-title": "Digitized Stocks",
         "stat-1-body": "efficiency, precision, and agility for business success.",
@@ -78,7 +78,7 @@
             },
             "handheld": {
                 "name": "Handheld Reader",
-                "description": "WaveInventory's RFID Gun Sensor is a powerful tool for quickly and efficiently reading large volumes of items. Designed for agility, this solution allows users to rapidly scan multiple items, ideal for inventory audits and quick tracking in warehouses or storage areas.",
+                "description": "The RFID Handheld Sensor from WaveInventory is a powerful tool for quickly and efficiently reading large volumes of items. Designed for agility, this solution allows users to rapidly scan multiple items, making it ideal for inventory audits and quick tracking in warehouses or storage areas.",
                 "stat-1": "13%",
                 "stat-1-description": "error reduction",
                 "stat-2": "100",
@@ -119,7 +119,7 @@
             },
             "production": {
                 "name": "Production",
-                "description": "Production scheduling, material needs planning, release and control of manufacturing orders, tracking indicators, etc.",
+                "description": "Production planning, raw material needs planning, manufacturing order control, tracking, and indicators.",
                 "icon": "<TruckIcon />"
             },
             "commerce": {
@@ -128,7 +128,7 @@
                 "icon": "<TruckIcon />"
             },
             "accounting": {
-                "name": "Administrative / Accounting",
+                "name": "Administration / Accounting",
                 "description": "Keep a record of your company's financial transactions and perform daily administrative tasks. Automate your business processes and get a more complete view of your operations.",
                 "icon": "<TruckIcon />"
             },
@@ -172,7 +172,7 @@
         "questions": {
             "q1": {
                 "question": "What is digitized stock?",
-                "answer": "Digitized stock is an inventory of products or materials maintained in digital format, rather than in a physical warehouse."
+                "answer": "A digitized inventory is a list of products or materials maintained in digital format, in one or multiple physical warehouses."
             },
             "q2":{
                 "question": "How is digitized stock used?",

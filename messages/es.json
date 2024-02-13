@@ -38,7 +38,7 @@
     },
     "stats": {
       "headline": "Con más de 20 años de experiencia, WaveInventory lidera soluciones de software innovadoras.",
-      "subheadline": "Especializados en tecnología RFID, ofrecemos herramientas asequibles de digitalización de inventario para medianas y grandes empresas.",
+      "subheadline": "Especializados en tecnología RFID, ofrecemos herramientas para la digitalización de inventario en medianas y grandes empresas.",
       "stat-1": "+1000",
       "stat-1-title": "Inventarios Digitalizados",
       "stat-1-body": "eficiencia, precisión y agilidad para el éxito empresarial.",
@@ -72,7 +72,7 @@
         },
         "handheld": {
           "name": "Lector de Mano",
-          "description": "El Sensor de Mano RFID de WaveInventory es una herramienta potente para leer de manera rápida y eficiente grandes volúmenes de artículos. Diseñada para agilidad, esta solución permite a los usuarios escanear rápidamente múltiples artículos, ideal para auditorías de inventario y seguimiento rápido en almacenes o áreas de almacenamiento.",
+          "description": "El Sensor de Mano RFID de WaveInventory es una herramienta potente para leer de manera rápida y eficiente grandes volúmenes de artículos. Diseñada con agilidad, esta solución permite a los usuarios escanear rápidamente múltiples artículos, ideal para auditorías de inventario y seguimiento rápido en almacenes o áreas de almacenamiento.",
           "stat-1": "13%",
           "stat-1-description": "reduccion de errores",
           "stat-2": "60%",
@@ -107,7 +107,7 @@
         },
         "production": {
           "name": "Producción",
-          "description": "Planificación de la producción, planificación de necesidades de materiales, liberación y control de órdenes de fabricación, seguimiento de indicadores, etc.",
+          "description": "Planificación de la producción, planificación de necesidades de materia prima, control de órdenes de fabricación, seguimiento e indicadores.",
           "icon": "CogIcon"
         },
         "commerce": {
@@ -116,7 +116,7 @@
           "icon": "ShoppingBagIcon"
         },
         "accounting": {
-          "name": "Administrativo / Contabilidad",
+          "name": "Administracion / Contabilidad",
           "description": "Lleva un registro de las transacciones financieras de tu empresa y realiza tareas administrativas diarias. Automatiza los procesos empresariales y obtén una vista más completa de tus operaciones.",
           "icon": "CalculatorIcon"
         },
@@ -153,7 +153,7 @@
       "questions": {
         "q1": {
           "question": "¿Qué es un inventario digitalizado?",
-          "answer": "Un inventario digitalizado es una lista de productos o materiales mantenida en formato digital, en lugar de en un almacén físico."
+          "answer": "Un inventario digitalizado es una lista de productos o materiales mantenida en formato digital, en uno o varios almacén físicos"
         },
         "q2": {
           "question": "¿Cómo se utiliza un inventario digitalizado?",

@@ -8,7 +8,7 @@ export async function POST(request) {
 
     const username = "esobol@gmail.com";
     const password = "mfoctynrvifakfme";
-    const myEmail = "esobol@gmail.com";
+    const myEmail = "info@waveinventory.io";
 
 
     console.log("dealing with request")

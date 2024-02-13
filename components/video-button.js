@@ -4,10 +4,13 @@ import { Dialog, Transition } from '@headlessui/react'
 import ReactPlayer from 'react-player/lazy'
 import { useTranslations } from 'next-intl'
 import { PlayIcon } from '@heroicons/react/20/solid'
+import { usePathname } from 'next/navigation'
 
 export default function VideoButton() {
   const t = useTranslations('hero')
   const [isOpen, setIsOpen] = useState(false)
+  const pathname = usePathname()
+  let videoplayer
 
   function closeModal() {
     setIsOpen(false)
@@ -16,7 +19,28 @@ export default function VideoButton() {
   function openModal() {
     setIsOpen(true)
   }
-
+  
+  if (pathname === '/en') {
+    videoplayer = (
+      <ReactPlayer
+      className="react-player"
+      url="https://vimeo.com/912697286"
+      width="100%"
+      height="100%"
+      controls={true}
+    />
+    )
+  } else {
+    videoplayer = (
+      <ReactPlayer
+      className="react-player"
+      url="https://vimeo.com/912686617"
+      width="100%"
+      height="100%"
+      controls={true}
+    />
+    )
+  }
   return (
     <>
       <Transition appear show={isOpen} as={Fragment}>
@@ -46,13 +70,7 @@ export default function VideoButton() {
               >
                 <Dialog.Panel className="w-full max-w-5xl transform overflow-hidden rounded-2xl bg-gray-900  text-left align-middle shadow-xl transition-all">
                   <div className="player-wrapper rounded-2xl overflow-clip shadow-xl  w-full">
-                    <ReactPlayer
-                      className="react-player"
-                      url="https://vimeo.com/905381922"
-                      width="100%"
-                      height="100%"
-                      controls={true}
-                    />
+             {videoplayer}
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
