@@ -12,7 +12,7 @@ export function Footer() {
           </p>
 
           <nav className="mt-10 text-sm" aria-label="quick links">
-            <div className="-my-1 flex justify-center gap-x-6">
+            <div className="-my-1 flex justify-center flex-col items-center lg:flex-row gap-x-6">
             {keys.map((key) => (
               <a
                 key={key}

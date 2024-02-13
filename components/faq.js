@@ -1,22 +1,17 @@
 import { useTranslations } from 'next-intl'
+import { Container } from './Container'
 
-const faqs = [
-  {
-    question: 'How do you make holy water?',
-    answer:
-      'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
-  },
-  // More questions...
-]
-
+import { FadeIn } from './FadeIn'
 export default function FAQ() {
   const t = useTranslations('faq')
   const keys = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7']
 
   return (
-    <div id="faq" className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
+    <section id="faq" className="bg-white">
+   <Container className="mt-40 sm:mt-32 lg:mt-64 ">
+       <FadeIn >
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+       
           <div className="lg:col-span-5">
             <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900"> {t('headline')}</h2>
             <p className="mt-4 text-base leading-7 text-gray-600">
@@ -26,6 +21,7 @@ export default function FAQ() {
               </a>
             </p>
           </div>
+      
           <div className="mt-10 lg:col-span-7 lg:mt-0">
             <dl className="space-y-10">
               {keys.map((key) => (
@@ -37,7 +33,8 @@ export default function FAQ() {
             </dl>
           </div>
         </div>
-      </div>
-    </div>
+        </FadeIn>
+      </Container>
+    </section>
   )
 }
