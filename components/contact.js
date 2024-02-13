@@ -72,9 +72,9 @@ export default function Contact() {
                     <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                   </dt>
                   <dd>
-                    545 Mavis Island
+                    2012B NW 64th St. 
                     <br />
-                    Chicago, IL 99191
+                    Seattle, WA 98107
                   </dd>
                 </div>
                 <div className="flex gap-x-4">
@@ -95,7 +95,7 @@ export default function Contact() {
                   </dt>
                   <dd>
                     <a className="hover:text-gray-900" href="mailto:hello@example.com">
-                      hello@example.com
+                      info@waveinventory.io
                     </a>
                   </dd>
                 </div>
@@ -211,7 +211,7 @@ export default function Contact() {
               <div className="mt-8 flex justify-end">
                 <button
                   type="submit"
-                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md bg-white/90 px-3.5 py-2.5 text-center text-sm font-semibold text-indigo-600 shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   {t('cta')}
                 </button>

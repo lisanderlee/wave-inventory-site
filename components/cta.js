@@ -29,14 +29,14 @@ export default function CTA() {
         </svg>
         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">{t('headline')}</h2>
         <h2 className="text-3xl mt-2 font-bold tracking-tight text-white sm:text-4xl">{t('ctaheadline')}</h2>
-        <div className="mt-10 flex items-center gap-x-6">
+        <button className="mt-10 flex items-center gap-x-6 ">
           <a
             href="#contact"
-            className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm hover:bg-indigo-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="rounded-md bg-white/90 hover:bg-white  px-3.5 py-2.5 z-50 text-sm font-semibold text-indigo-600 shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             {t('ctabutton')}
           </a>
-        </div>
+        </button>
       </div>
     </Container>
     </FadeIn>
