@@ -10,6 +10,7 @@ import { Integrations } from '@/components/integrations'
 import FAQ from '@/components/faq'
 import Contact from '@/components/contact'
 import { Footer } from '@/components/footer'
+import Benefits from '@/components/benefits'
 
 
 export default function Page() {
@@ -18,7 +19,7 @@ export default function Page() {
       <Header />
       <main>
         <Hero />
-
+    <Benefits />
         <Stats />
 
         <Solution />

@@ -1,9 +1,10 @@
 'use client'
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/solid'
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 import { Container } from './Container'
-
+import Image from 'next/image'
+import LinkedIn from "@/public/Images/linkedin.svg"
 export default function Contact() {
   const t = useTranslations('contact')
 
@@ -69,7 +70,7 @@ export default function Contact() {
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
                     <span className="sr-only">Address</span>
-                    <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                    <BuildingOffice2Icon className="h-7 w-6 text-white" aria-hidden="true" />
                   </dt>
                   <dd>
                     2012B NW 64th St. 
@@ -80,7 +81,7 @@ export default function Contact() {
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
                     <span className="sr-only">Telephone</span>
-                    <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                    <PhoneIcon className="h-7 w-6 text-white" aria-hidden="true" />
                   </dt>
                   <dd>
                     <a className="hover:text-gray-900" href="tel:+1 (555) 234-5678">
@@ -91,11 +92,23 @@ export default function Contact() {
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
                     <span className="sr-only"> email </span>
-                    <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
+                    <EnvelopeIcon className="h-7 w-6 text-white" aria-hidden="true" />
                   </dt>
                   <dd>
                     <a className="hover:text-gray-900" href="mailto:hello@example.com">
                       info@waveinventory.io
+                    </a>
+                  </dd>
+                </div>
+                <div className="flex -ml-[2px] gap-x-4">
+                  <dt className="flex-none">
+                    <span className="sr-only"> email </span>
+                    <Image src={LinkedIn} alt='Linked' width={29
+                    } height={30} />
+                  </dt>
+                  <dd>
+                    <a target="_blank" className="hover:text-gray-900" href="https://www.linkedin.com/company/waveinventory">
+                   LinkedIn
                     </a>
                   </dd>
                 </div>

@@ -10,7 +10,7 @@ export default function Hero() {
   const t = useTranslations('hero')
 
   return (
-    <div className=" bg-indigo-600 ">
+    <div className=" bg-indigo-600 h-screen flex">
       <svg
         className="absolute inset-0 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
         aria-hidden="true"
@@ -30,19 +30,20 @@ export default function Hero() {
 
         <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
       </svg>
-      <Container className="mx-auto pb-16 pt-20 text-center lg:pt-24">
-        <h1 className="mx-auto leading-tight  max-w-4xl text-5xl font-bold tracking-tight text-white sm:text-7xl">
+      <Container className="mx-auto h-full justify-center  items-center flex text-center ">
+        <div className='flex flex-col -mt-14 '>
+        <h1 className="mx-auto leading-tight  max-w-8xl text-5xl mt-10 lg:mt-0 font-medium tracking-tight text-white lg:text-9xl">
           {t('headline')}
         </h1>
-        <p className="mx-auto max-w-2xl text-2xl font-bold mt-10 text-white">{t('highlight')}</p>
+        <p className="mx-auto max-w-2xl text-xl lg:text-2xl font-bold mt-10 text-white">{t('highlight')}</p>
 
-        <p className="mx-auto max-w-4xl text-lg  mt-3 text-white lg:text-xl">{t('subheadline')}</p>
+        <p className="mx-auto max-w-4xl text-base  mt-3 text-white lg:text-xl">{t('subheadline')}</p>
 
-        <div className="w-full flex  justify-center">
+        {/* <div className="w-full flex  justify-center">
           <VideoButton />
+        </div> */}
         </div>
-
-        <div className=" flex flex-col items-center gap-y-10 lg:flex-row mb-5 overflow-clip   justify-between mt-16 w-full">
+        {/* <div className=" flex flex-col items-center gap-y-10 lg:flex-row mb-5 overflow-clip   justify-between mt-16 w-full">
           <div>
             <Image alt="Box Scan" src={BOX} width={280} height={280} />
             <div className="">
@@ -61,7 +62,7 @@ export default function Hero() {
               <p className="text-sm text-white font-semibold text-center "> {t('pos')}</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </Container>
     </div>
   )

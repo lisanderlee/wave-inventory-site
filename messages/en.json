@@ -1,6 +1,10 @@
 {
 
     "navigation":{
+        "about":{
+            "name": "About",
+            "href": "#about"
+        },
         "solution":{
             "name": "Our System",
             "href": "#solution"
@@ -31,14 +35,27 @@
     "hero": {
         "headline": "Tracking Today's Inventory for Tomorrow's Success.",
         "highlight": "Every item, every location, every moment:",
-        "subheadline": "WaveInvetory ensures you're always informed. Our advanced Wireless Matrix system seamlessly integrates with the cloud, offering unparalleled accuracy in stock tracking. Save time, reduce costs, and elevate your inventory management.",
+        "subheadline": "WaveInventory offers advanced inventory solutions: RFID tags, stage-tailored hardware, and cutting-edge cloud integration for unparalleled accuracy and speed. Streamline your inventory management effortlessly, saving time and costs.",
         "cta": "Watch it at work",
         "box": "Large Scale Contents Reader",
         "handheld": "Fast Handheld Reader",
         "pos": "POS Tracking Readers"
     },
 
+
+
+
+
     
+"benefits": {
+    "headline-1": "Precision Perfected: Reliable Inventory Control",
+    "subheadline-1": "Our solution ensures precise, real-time inventory control, eliminating errors and providing immediate insights to optimize your supply chain.",
+    "headline-2": "Time and Cost Savings: Inventory Automation",
+    "subheadline-2": "Our solution automates the inventory process, cutting costs and saving time. Simplify your operations and focus resources on growth. No more hand counting.",
+    "headline-3": "Maximized Efficiency: Cloud Integration with RFID",
+    "subheadline-3": "Maximize efficiency with our cloud integration and RFID tracking. Gain detailed insights to drive productivity and streamline operations."
+    },
+
     "stats": {
         "headline": "With over 20 years of experience, WaveInventory leads innovative software solutions.",
         "subheadline": "Specializing in RFID technology, we offer tools for the digitization of inventory in medium and large companies.",
@@ -57,32 +74,35 @@
     "solution": {
         "headline": "Our comprehensive ecosystem offers tools for every phase of the business process.",
         "subheadline": "From incorporating RFID tags in production to efficient management at the point of sale. We guarantee comprehensive and effective management, optimizing the supply chain and enhancing the customer experience.",
-        "videocta": "Watch Video",
+        "videocta": "See it working",
         "features": {
             "tag": {
                 "name": "Smart Tag",
                 "description": "At the beginning of the production process, we add our RFID tags to each garment. This step enables detailed tracking from manufacturing to the point of sale, enhancing supply chain efficiency and customer satisfaction. These tags can be customized in various ways, whether as stickers, rigid or flexible tags, providing hundreds of options to suit the specific needs of each garment or product.",
                 "stat-1": "99%",
-                "stat-1-description": "improved precision",
+                "stat-1-description": "Improved precision",
                 "stat-2": "50+",
-                "stat-2-description": "Desings"
+                "stat-2-description": "Desings to choose"
+           
             },
             "box": {
                 "name": "Content Reader",
                 "description": "Our RFID Content Sensor enables rapid scanning of closed boxes, identifying each RFID-tagged garment without opening the box. Ideal for efficient inventory verification and goods receipt management, it ensures accuracy and time savings. The technology is customizable to fit any size, providing flexibility for diverse needs.",
                 "stat-1": "15%",
-                "stat-1-description": "loss reduction",
+                "stat-1-description": "Loss reduction",
                 "stat-2": "4%",
-                "stat-2-description": "personal reduction"
+                "stat-2-description": "Personal reduction"
+            
              
             },
             "handheld": {
                 "name": "Handheld Reader",
                 "description": "The RFID Handheld Sensor from WaveInventory is a powerful tool for quickly and efficiently reading large volumes of items. Designed for agility, this solution allows users to rapidly scan multiple items, making it ideal for inventory audits and quick tracking in warehouses or storage areas.",
                 "stat-1": "13%",
-                "stat-1-description": "error reduction",
+                "stat-1-description": "Error reduction",
                 "stat-2": "100",
-                "stat-2-description": "lower cost"
+                "stat-2-description": "Lower cost"
+          
         
             },
             "smart": {
@@ -92,15 +112,17 @@
                 "stat-1-description": "stock avalability",
                 "stat-2": "99%",
                 "stat-2-description": "precision increase"
+             
       
             },
             "pos": {
                 "name": "POS Retail Readers",
                 "description": "WaveInventory's POS Retail system, integrated with RFID technology, transforms the retail sales experience. It allows detailed tracking of items in the store, facilitating real-time inventory management and a faster, more efficient shopping experience for the customer. Additionally, it aids in loss prevention and improves transaction accuracy.",
                 "stat-1": "100%",
-                "stat-1-description": "stock avalability",
+                "stat-1-description": "Stock avalability",
                 "stat-2": "99%",
-                "stat-2-description": "precision increase"
+                "stat-2-description": "Precision increase"
+            
 
              
             }
