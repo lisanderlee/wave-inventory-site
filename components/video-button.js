@@ -53,8 +53,10 @@ export default function VideoButton({ videoSelector }) {
                       width="100%"
                       height="100%"
                       playing={true}
+                      onEnded={()=>setIsOpen(false)}
                     />
                   </div>
+    
                 </Dialog.Panel>
               </Transition.Child>
             </div>

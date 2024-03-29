@@ -34,11 +34,11 @@ export default function Solution() {
                     <h3 className="text-5xl flex font-bold text-indigo-600"> {t('features.tag.name')} </h3>
                   </div>
 
-                  <ul className="mt-5 ml-5 text-lg text-gray-500">
+                  <ul className="mt-5 ml-5   text-lg text-gray-500">
                     <li className="list-disc">{t('features.tag.line-1')}</li>
                     <li className="list-disc">{t('features.tag.line-2')}</li>
                     <li className="list-disc">{t('features.tag.line-3')}</li>
-                    <li className="list-disc	 ">{t('features.tag.line-4')}</li>
+                    <li className="list-disc 	 ">{t('features.tag.line-4')}</li>
                     <li className="list-disc	 ">{t('features.tag.line-5')}</li>
                   </ul>
                   {/* <p className=" text-md text-gray-500 mt-5 "> {t('features.tag.description')} </p> */}
