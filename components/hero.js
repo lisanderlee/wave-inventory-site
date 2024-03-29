@@ -31,15 +31,18 @@ export default function Hero() {
         <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
       </svg>
       <Container className="mx-auto h-full justify-center  items-center flex text-center ">
-        <div className='flex flex-col -mt-14 '>
-        <h1 className="mx-auto leading-tight  max-w-8xl text-5xl mt-10 lg:mt-0 font-medium tracking-tight text-white lg:text-9xl">
-          {t('headline')}
-        </h1>
-        <p className="mx-auto max-w-2xl text-xl lg:text-2xl font-bold mt-10 text-white">{t('highlight')}</p>
+        <div className="flex flex-col -mt-14 ">
+          <h1 className="mx-auto leading-tight z-30 max-w-8xl text-5xl mt-10  lg:mt-0 font-medium tracking-tight  lg:text-9xl">
+            <span className='  text-cyan-500 font-bold'>{t('tracking')}</span>
+            <span className=' text-gray-200'>{t('today')}</span>
+            <span className=' text-cyan-500 font-bold'>{t('inventory')}</span>
+            <span className=' text-gray-200'>{t('tomorrow')}</span>
+          </h1>
+          <p className="mx-auto max-w-2xl text-xl lg:text-2xl font-bold mt-10 text-white">{t('highlight')}</p>
 
-        <p className="mx-auto max-w-4xl text-base  mt-3 text-white lg:text-xl">{t('subheadline')}</p>
+          <p className="mx-auto max-w-4xl text-base  mt-3 text-white lg:text-xl">{t('subheadline')}</p>
 
-        {/* <div className="w-full flex  justify-center">
+          {/* <div className="w-full flex  justify-center">
           <VideoButton />
         </div> */}
         </div>

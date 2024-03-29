@@ -16,7 +16,7 @@ export default function Benefits() {
           </Link>
         </SectionIntro> */}
 
-        <Container className="lg:-mt-16 mt-16">
+        <Container className="xl:-mt-24   mt-16">
           <div className="mx-auto  ">
             <div className="flex lg:flex-row lg:gap-x-8  flex-col gap-y-7 justify-between gap-x-5">
               <FadeIn>
