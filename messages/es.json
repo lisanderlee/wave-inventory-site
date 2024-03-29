@@ -1,6 +1,10 @@
 {
 
   "navigation":{
+    "nosotros":{
+      "name": "Nosotros",
+      "href": "#about"
+  },
     "solution":{
         "name": "Nuestro Sistema",
         "href": "#solution"
@@ -30,12 +34,24 @@
     "hero": {
       "headline": "Rastreando el Inventario de Hoy para el Éxito del Mañana.",
       "highlight": "Cada artículo, cada ubicación, cada momento:",
-      "subheadline": "WaveInventory asegura que siempre estés informado. Nuestro avanzado sistema Wireless Matrix se integra perfectamente con la nube, ofreciendo una precisión incomparable en el seguimiento de inventario. Ahorra tiempo, reduce costos y eleva la gestión de tu inventario.",
+      "subheadline": "WaveInventory ofrece soluciones avanzadas de inventario: etiquetas RFID, hardware adaptado a cada etapa y una integración en la nube de vanguardia para una precisión y velocidad incomparables. Simplifique la gestión de su inventario sin esfuerzo, ahorrando tiempo y costos.",
       "cta": "Véalo en acción",
       "box": "Lector de Contenidos a Gran Escala",
       "handheld": "Lector Manual Rápido",
       "pos": "Lectores de Seguimiento en POS"
     },
+
+    "benefits": {
+      "headline-1": "Precisión Asegurada: Control de Inventario Confiable",
+      "subheadline-1": "Nuestra solución garantiza un control de inventario preciso y en tiempo real, eliminando errores y ofreciendo insights inmediatos para optimizar tu cadena de suministro.",
+      "headline-2": "Ahorro de Tiempo y Costos: Automatización del Inventario",
+      "subheadline-2": "Nuestra solución automatiza el proceso de inventario, reduciendo costos y ahorrando tiempo. Simplifica tus operaciones y enfoca tus recursos en el crecimiento. Evite el conteo manual.",
+      "headline-3": "Eficiencia Máxima: Integración en la Nube con RFID",
+      "subheadline-3": "Maximiza la eficiencia con nuestra integración en la nube y rastreo RFID. Obtén insights detallados para impulsar la productividad y simplificar tus operaciones."
+      },
+
+
+
     "stats": {
       "headline": "Con más de 20 años de experiencia, WaveInventory lidera soluciones de software innovadoras.",
       "subheadline": "Especializados en tecnología RFID, ofrecemos herramientas para la digitalización de inventario en medianas y grandes empresas.",
@@ -52,47 +68,52 @@
     "solution": {
       "headline": "Nuestro ecosistema integral ofrece herramientas para cada fase del proceso empresarial.",
       "subheadline": "Desde la incorporación de etiquetas RFID en la producción hasta la eficiente gestión en el punto de venta. Garantizamos una gestión integral y efectiva, optimizando la cadena de suministro y mejorando la experiencia del cliente.",
-      "videocta": "Ver Video",
+      "videocta": "Vealo trabajando",
       "features": {
         "tag": {
           "name": "Etiqueta Inteligente",
           "description": "Al inicio del proceso de producción, añadimos nuestras etiquetas RFID a cada prenda. Este paso permite un seguimiento detallado desde la fabricación hasta el punto de venta, mejorando la eficiencia de la cadena de suministro y la satisfacción del cliente. Estas etiquetas pueden personalizarse de diversas formas, ya sea como stickers, tags rígidos o flexibles, ofreciendo cientos de opciones para adaptarse a las necesidades específicas de cada prenda o producto.",
           "stat-1": "13%",
-          "stat-1-description": "aumento de precision",
+          "stat-1-description": "Aumento de precision",
           "stat-2": "50+",
-          "stat-2-description": "diseños"
+          "stat-2-description": "Diseños para elejir"
+        
         },
         "box": {
           "name": "Lector de Contenidos",
           "description": "Nuestro Sensor de Caja RFID permite a las empresas escanear rápidamente el contenido de cajas cerradas, identificando cada prenda etiquetada con RFID sin necesidad de abrir la caja. Esta solución es ideal para la verificación de inventarios y la gestión eficiente de la recepción de mercancías, asegurando precisión y ahorro de tiempo en el manejo de stock. Además, la tecnología puede personalizarse para adaptarse a cualquier tamaño, ofreciendo flexibilidad para necesidades diversas.",
           "stat-1": "15%",
-          "stat-1-description": "reduccion perdidas",
+          "stat-1-description": "Reduccion perdidas",
           "stat-2": "4%",
-          "stat-2-description": "reduccion personal"
+          "stat-2-description": "Reduccion personal"
+         
         },
         "handheld": {
           "name": "Lector de Mano",
           "description": "El Sensor de Mano RFID de WaveInventory es una herramienta potente para leer de manera rápida y eficiente grandes volúmenes de artículos. Diseñada con agilidad, esta solución permite a los usuarios escanear rápidamente múltiples artículos, ideal para auditorías de inventario y seguimiento rápido en almacenes o áreas de almacenamiento.",
           "stat-1": "13%",
-          "stat-1-description": "reduccion de errores",
+          "stat-1-description": "Reduccion de errores",
           "stat-2": "60%",
-          "stat-2-description": "incremento agilidad"
+          "stat-2-description": "Incremento agilidad"
+     
         },
         "smart": {
           "name": "Espejo Inteligente",
           "description": "El Espejo Inteligente transforma la experiencia de compra en el punto de venta, simplificando la atención y proporcionando información detallada sobre los artículos probados por el cliente, mejorando así la interacción y la satisfacción en la tienda.",
           "stat-1": "100%",
-          "stat-1-description": "stock avalability",
+          "stat-1-description": "Stock avalability",
           "stat-2": "99%",
-          "stat-2-description": "precision increase"
+          "stat-2-description": "Precision increase"
+          
         },
         "pos": {
           "name": "Punto de Venta (POS) Retail",
           "description": "El sistema POS Retail de WaveInventory, integrado con tecnología RFID, transforma la experiencia de ventas minoristas. Permite el seguimiento detallado de artículos en la tienda, facilitando la gestión de inventario en tiempo real y una experiencia de compra más rápida y eficiente para el cliente. Además, ayuda en la prevención de pérdidas y mejora la precisión de las transacciones.",
           "stat-1": "100%",
-          "stat-1-description": "disponibilidad de stock",
+          "stat-1-description": "Disponibilidad de stock",
           "stat-2": "99%",
-          "stat-2-description": "incremento de precision"
+          "stat-2-description": "Incremento de precision"
+     
         }
       }
     },
@@ -134,7 +155,7 @@
     },
     "testimonial": {
       "headline": "Testimonios",
-      "subheadline": "Escucha a algunos de nuestros clientes actuales."
+      "subheadline": "Descubre lo que dicen nuestros clientes satisfechos."
     },
     "integrations": {
       "headline": "Socios de Integración",

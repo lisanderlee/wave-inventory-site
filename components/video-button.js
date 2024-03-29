@@ -5,12 +5,10 @@ import ReactPlayer from 'react-player/lazy'
 import { useTranslations } from 'next-intl'
 import { PlayIcon } from '@heroicons/react/20/solid'
 import { usePathname } from 'next/navigation'
+import { PlayCircleIcon } from '@heroicons/react/24/outline'
 
-export default function VideoButton() {
-  const t = useTranslations('hero')
+export default function VideoButton({ videoSelector }) {
   const [isOpen, setIsOpen] = useState(false)
-  const pathname = usePathname()
-  let videoplayer
 
   function closeModal() {
     setIsOpen(false)
@@ -19,28 +17,7 @@ export default function VideoButton() {
   function openModal() {
     setIsOpen(true)
   }
-  
-  if (pathname === '/en') {
-    videoplayer = (
-      <ReactPlayer
-      className="react-player"
-      url="https://vimeo.com/912697286"
-      width="100%"
-      height="100%"
-      controls={true}
-    />
-    )
-  } else {
-    videoplayer = (
-      <ReactPlayer
-      className="react-player"
-      url="https://vimeo.com/912686617"
-      width="100%"
-      height="100%"
-      controls={true}
-    />
-    )
-  }
+
   return (
     <>
       <Transition appear show={isOpen} as={Fragment}>
@@ -70,7 +47,13 @@ export default function VideoButton() {
               >
                 <Dialog.Panel className="w-full max-w-5xl transform overflow-hidden rounded-2xl bg-gray-900  text-left align-middle shadow-xl transition-all">
                   <div className="player-wrapper rounded-2xl overflow-clip shadow-xl  w-full">
-             {videoplayer}
+                    <ReactPlayer
+                      className="react-player"
+                      url={videoSelector}
+                      width="100%"
+                      height="100%"
+                      playing={true}
+                    />
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
@@ -78,19 +61,13 @@ export default function VideoButton() {
           </div>
         </Dialog>
       </Transition>
-      <div className="w-full flex mt-10 justify-center">
-        <button
-          type="button"
-          onClick={openModal}
-          className="group inline-flex ring-1 z-20 items-center py-4 px-6 ring-white rounded-full hover:bg-white/20 "
-        >
-          {' '}
-          <div className="mr-3">
-            <PlayIcon className="h-4 w-4 text-white " />
-          </div>
-          <p className="flex font-bold text-sm text-white">{t('cta')}</p>
-        </button>
-      </div>
+
+      <button type="button" onClick={openModal} className="">
+
+        <div className="">
+          <PlayCircleIcon className=" h-[35px] text-indigo-600 hover:text-indigo-900" />
+        </div>
+      </button>
     </>
   )
 }

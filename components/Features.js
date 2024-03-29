@@ -5,7 +5,7 @@ import {
   CalculatorIcon,
   MapPinIcon,
   ChartBarIcon,
-} from '@heroicons/react/20/solid'
+} from '@heroicons/react/24/outline'
 import { useTranslations } from 'next-intl'
 import { SectionIntro } from './SectionIntro'
 import { Container } from './Container'
