@@ -1,39 +1,39 @@
 {
-
-    "navigation":{
-        "about":{
+    "navigation": {
+        "about": {
             "name": "About",
             "href": "#about"
         },
-        "solution":{
+        "solution": {
             "name": "Our System",
             "href": "#solution"
         },
-        "features":{
+        "features": {
             "name": "Features",
             "href": "#features"
         },
-        "testimonial":{
+        "testimonial": {
             "name": "Testimonial",
             "href": "#testimonial"
         },
-        "integrations":{
+        "integrations": {
             "name": "Integrations",
             "href": "#integrations"
         },
-        "faq":{
+        "faq": {
             "name": "FAQ",
             "href": "#faq"
         },
-        "contact":{
+        "contact": {
             "name": "Contact Us",
             "href": "#contact"
         }
     },
-
-
     "hero": {
-        "headline": "Tracking Today's Inventory for Tomorrow's Success.",
+        "tracking": "Tracking ",
+        "today": "today's ",
+        "inventory": "inventory ",
+        "tomorrow": "for tomorrow's success.",
         "highlight": "Every item, every location, every moment:",
         "subheadline": "WaveInventory offers advanced inventory solutions: RFID tags, stage-tailored hardware, and cutting-edge cloud integration for unparalleled accuracy and speed. Streamline your inventory management effortlessly, saving time and costs.",
         "cta": "Watch it at work",
@@ -41,21 +41,14 @@
         "handheld": "Fast Handheld Reader",
         "pos": "POS Tracking Readers"
     },
-
-
-
-
-
-    
-"benefits": {
-    "headline-1": "Precision Perfected: Reliable Inventory Control",
-    "subheadline-1": "Our solution ensures precise, real-time inventory control, eliminating errors and providing immediate insights to optimize your supply chain.",
-    "headline-2": "Time and Cost Savings: Inventory Automation",
-    "subheadline-2": "Our solution automates the inventory process, cutting costs and saving time. Simplify your operations and focus resources on growth. No more hand counting.",
-    "headline-3": "Maximized Efficiency: Cloud Integration with RFID",
-    "subheadline-3": "Maximize efficiency with our cloud integration and RFID tracking. Gain detailed insights to drive productivity and streamline operations."
+    "benefits": {
+        "headline-1": "Precision Perfected: Reliable Inventory Control",
+        "subheadline-1": "Our solution ensures precise, real-time inventory control, eliminating errors and providing immediate insights to optimize your supply chain.",
+        "headline-2": "Time and Cost Savings: Inventory Automation",
+        "subheadline-2": "Our solution automates the inventory process, cutting costs and saving time. Simplify your operations and focus resources on growth. No more hand counting.",
+        "headline-3": "Maximized Efficiency: Cloud Integration with RFID",
+        "subheadline-3": "Maximize efficiency with our cloud integration and RFID tracking. Gain detailed insights to drive productivity and streamline operations."
     },
-
     "stats": {
         "headline": "With over 20 years of experience, WaveInventory leads innovative software solutions.",
         "subheadline": "Specializing in RFID technology, we offer tools for the digitization of inventory in medium and large companies.",
@@ -69,8 +62,6 @@
         "stat-3-title": "Satisfied Users",
         "stat-3-body": "confirm our commitment to customer satisfaction and excellence in solutions."
     },
-
-
     "solution": {
         "headline": "Our comprehensive ecosystem offers tools for every phase of the business process.",
         "subheadline": "From incorporating RFID tags in production to efficient management at the point of sale. We guarantee comprehensive and effective management, optimizing the supply chain and enhancing the customer experience.",
@@ -78,32 +69,41 @@
         "features": {
             "tag": {
                 "name": "Smart Tag",
+                "line-1": " RFID tags added to each garment at production start.",
+                "line-2": "Enables detailed tracking from manufacturing to sale.",
+                "line-3": "Enhances supply chain efficiency and satisfaction.",
+                "line-4": "Customizable as stickers, rigid, or flexible tags.",
+                "line-5": "Offers numerous options to suit specific needs.",
                 "description": "At the beginning of the production process, we add our RFID tags to each garment. This step enables detailed tracking from manufacturing to the point of sale, enhancing supply chain efficiency and customer satisfaction. These tags can be customized in various ways, whether as stickers, rigid or flexible tags, providing hundreds of options to suit the specific needs of each garment or product.",
                 "stat-1": "99%",
                 "stat-1-description": "Improved precision",
                 "stat-2": "50+",
                 "stat-2-description": "Desings to choose"
-           
             },
             "box": {
                 "name": "Content Reader",
+                "line-1": " Our RFID Content Sensor allows for rapid scanning of closed boxes.",
+                "line-2": "Identifies each RFID-tagged garment without opening the box.",
+                "line-3": "Ideal for efficient inventory verification and goods receipt management.",
+                "line-4": "Ensures accuracy and time savings.",
+                "line-5": "Customizable to fit any size, offering flexibility for diverse needs.",
                 "description": "Our RFID Content Sensor enables rapid scanning of closed boxes, identifying each RFID-tagged garment without opening the box. Ideal for efficient inventory verification and goods receipt management, it ensures accuracy and time savings. The technology is customizable to fit any size, providing flexibility for diverse needs.",
                 "stat-1": "15%",
                 "stat-1-description": "Loss reduction",
                 "stat-2": "4%",
                 "stat-2-description": "Personal reduction"
-            
-             
             },
             "handheld": {
                 "name": "Handheld Reader",
+                "line-1": "WaveInventory's RFID Handheld reader swiftly reads large item volumes.",
+                "line-2": "Designed for agility, this solution enables users to rapidly scan multiple items.",
+                "line-3": "Ideal for inventory audits and quick tracking in retail points.",
+                "line-4": "Seamlessly connected to our cloud platform for real-time data access.",
                 "description": "The RFID Handheld Sensor from WaveInventory is a powerful tool for quickly and efficiently reading large volumes of items. Designed for agility, this solution allows users to rapidly scan multiple items, making it ideal for inventory audits and quick tracking in warehouses or storage areas.",
                 "stat-1": "13%",
                 "stat-1-description": "Error reduction",
                 "stat-2": "100",
                 "stat-2-description": "Lower cost"
-          
-        
             },
             "smart": {
                 "name": "SMART Mirror",
@@ -112,24 +112,22 @@
                 "stat-1-description": "stock avalability",
                 "stat-2": "99%",
                 "stat-2-description": "precision increase"
-             
-      
             },
             "pos": {
-                "name": "POS Retail Readers",
+                "name": "POS Reader",
+                "line-1": "WaveInventory's RFID-integrated POS system revolutionizes retail sales.",
+                "line-2": "Detailed in-store item tracking facilitates real-time inventory management.",
+                "line-3": "Enhances shopping with faster, efficient transactions.",
+                "line-4": "Aids in loss prevention and improves transaction accuracy.",
+                "line-5": "Seamlessly connected to our cloud platform for streamlined operations.",
                 "description": "WaveInventory's POS Retail system, integrated with RFID technology, transforms the retail sales experience. It allows detailed tracking of items in the store, facilitating real-time inventory management and a faster, more efficient shopping experience for the customer. Additionally, it aids in loss prevention and improves transaction accuracy.",
                 "stat-1": "100%",
                 "stat-1-description": "Stock avalability",
                 "stat-2": "99%",
                 "stat-2-description": "Precision increase"
-            
-
-             
             }
         }
     },
-
-
     "features": {
         "headline": "Total Integration with the Cloud",
         "subheadline": "In addition to stock digitization, we offer a comprehensive solution to all needs in a single product. Total integration with the cloud allows real-time access and management.",
@@ -166,27 +164,20 @@
             }
         }
     },
-
     "testimonial": {
         "headline": "Testimonials",
         "subheadline": "Hear it from some of our current customers."
     },
-
-
     "integrations": {
         "headline": "Integration Partners",
         "subheadline": "Smart Stock is integrated with the most widely used solutions and apps."
     },
-
-
     "cta": {
         "headline": "Transform your logistics process with WaveInventory.",
         "ctaheadline": "Contact us today.",
         "ctabutton": "Contact Us",
         "ctavideo": "Watch Video"
     },
-
-
     "faq": {
         "headline": "Frequently Asked Questions",
         "subheadline": "Can't find the answer you're looking for? ",
@@ -196,34 +187,32 @@
                 "question": "What is digitized stock?",
                 "answer": "A digitized inventory is a list of products or materials maintained in digital format, in one or multiple physical warehouses."
             },
-            "q2":{
+            "q2": {
                 "question": "How is digitized stock used?",
                 "answer": "Digitized stock is used to keep track of available products or materials, their quantity, and location. It can also be used to track inventory entries and exits, generate reports, and automatically place orders."
             },
-            "q3":{
+            "q3": {
                 "question": "What are the advantages of digitized stock?",
                 "answer": "Digitized stock offers several advantages, such as reducing human errors, the ability to track inventory in real-time, process automation, and the ability to generate reports and analysis. It can also help reduce storage costs and improve efficiency in inventory management."
             },
-            "q4":{
+            "q4": {
                 "question": "What tools are used to digitize stock?",
                 "answer": "To digitize stock, specific software tools are used, such as inventory management systems (ERP), warehouse automation software (WMS), and inventory tracking software (ICS). These tools can be used together or independently to adapt to each company's needs."
             },
-            "q5":{
+            "q5": {
                 "question": "What is RFID technology?",
                 "answer": "RFID (Radio Frequency Identification) is a wireless communication technology that uses radio frequencies to transmit information between a device called an RFID tag (carrying the data) and a receiving device called an RFID reader. This technology is used in a wide range of applications, including automatic object identification, asset tracking, access control, and inventory management."
             },
-            "q6":{
+            "q6": {
                 "question": "What benefits does RFID technology provide?",
                 "answer": "The benefits of RFID technology include increased efficiency in data collection, greater accuracy in inventory tracking, better real-time tracking capability, increased automation in tracking processes, and cost reduction. It can also enhance security by allowing better access management and control of access to important areas and assets."
             },
-            "q7":{
+            "q7": {
                 "question": "What devices are used in RFID?",
                 "answer": "RFID Tags: passive devices containing a chip and an antenna placed on objects to be tracked. RFID Readers: active devices that emit a signal to read information stored in RFID tags. RFID Printers: devices used to write information to RFID tags. RFID Antennas: devices used to transmit and receive RFID signals. RFID Systems: complete systems that include readers, writers, and software to collect, store, and analyze RFID data."
             }
         }
     },
-
-
     "contact": {
         "headline": "Get in Touch",
         "subheadline": "For inquiries or collaboration opportunities, please contact us. Our team is here to assist you in finding tailored solutions for your needs. Connect with us today for a more efficient and successful partnership.",
